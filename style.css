@@ -1,4 +1,47 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar {
+    background-color: #262626;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.2rem;
+}
+
+#loga {
+    margin-left: 6rem;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    background: #fc4a1a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fc4a1a, #f7b733); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar_menu {
+    margin-right: 200px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.list_item {
+    text-decoration: none;
+    margin: 20px;
+    background: #fc4a1a;
+    background: -webkit-linear-gradient(to right, #fc4a1a, #f7b733);
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
